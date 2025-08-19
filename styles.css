@@ -1,0 +1,301 @@
+:root {
+    --deepgreen: #004d40;
+    --lightcream: #fdf6e3;
+    --lightgreen: #00695c;
+    --deepcream: #f3e7c2;
+    --body: #e6e0d4;
+}
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--deepgreen);
+    color: var(--lightcream);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    max-width: 1200px;
+}
+#head, #learn_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#learn_links {
+    height: 100%;
+}
+#head nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+nav a{
+    text-decoration: none;
+    color: var(--lightcream);
+}
+#head p{
+    width: 50px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+main {
+    margin-top: 80px;
+    background-color: var(--lightcream);
+    padding-bottom: 30px;
+}
+#Home {
+    height: 700px;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: var(--deepgreen);
+    background-image: url(https://i.pinimg.com/1200x/23/3b/26/233b2698248a656f7285567df7be02fd.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+#Home a {
+    text-decoration: none;
+    color: var(--lightcream);
+    background-color: var(--lightgreen);
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#Home h1 {
+    margin-top: 20px;
+    font-size: 4rem;
+    width: 300px;
+    color: var(--lightcream);
+}
+#Home p {
+    font-weight: bold;
+    width: 200px;
+    color: var(--lightcream);
+    font-size: 1.2rem;
+}
+body {
+    background-color: var(--body);
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#About {
+    font-size: 1.5rem;
+    margin: 50px 30px;
+}
+#Programs {
+    margin: 50px 30px;
+}
+#Programs p {
+    font-size: 1.5rem;
+}
+#Programs h2 {
+    font-size: 2.2rem;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex div {
+    width: 250px;
+    background-color: var(--deepcream); 
+    padding: 20px;
+    height: 300px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.extra p{
+   font-size: 2rem;
+   width: 300px;
+   font-weight: bold;
+} 
+.extra a {
+    text-decoration: none;
+    background-color: var(--deepgreen);
+    color: var(--lightcream);
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+footer {
+    display: flex;
+    background-color: var(--deepgreen);
+    color: var(--lightcream);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+.info p:nth-of-type(1) {
+    font-size: 1.5rem;
+    width: 100px;
+}
+.info p:nth-of-type(3) {
+    font-size: 0.5rem;
+}
+.extra {
+    margin: 50px 30px;
+}
+/*learn_more*/
+#heading {
+    width: 100%;
+    height: 800px;
+    padding-top: 200px;
+    text-align: center;
+    background-size: contain;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/1200x/0d/19/2c/0d192c864a349792365ec0146d446030.jpg);
+}
+#heading p{
+    font-family: "Mogra", cursive;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-top: 0;
+    margin-top: 5px;
+    color: var(--lightcream);
+}
+#heading h1{
+    color: var(--lightcream);
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 750;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#objectives {
+   padding-top: 30px;
+}
+.learn_section h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.learn_section section{
+    padding: 10px 20px;
+    height: 250px;
+    background-color: var(--deepcream);
+    margin-bottom: 40px;
+}
+/*Join*/
+#join {
+    height: 700px;
+    width: 600px;
+    background-color: var(--lightcream);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--deepgreen);
+}
+#join_main {
+    background-color: var(--body);
+}
+#join h2{
+    font-size: 4.5rem;
+    margin-bottom: 0;
+}
+#join p {
+    font-size: 2.5rem;
+    padding: 30px;
+    text-align: center;
+}
+#join_links{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#join_links a{
+    background-color: var(--deepgreen);
+    text-decoration: none;
+    color: var(--lightcream);
+    height: 80px;
+    width: 200px;
+    display: block;
+    padding-top: 18px;
+    font-size: 2.2rem;
+    border-radius: 10px;
+}
+#donate_main form{
+    display: flex;
+    flex-direction: column;
+}
+.donation_intro, #join2_intro{
+    height: 600px;
+    padding-top: 100px;
+    position: static;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/1200x/93/f4/56/93f456a574e3e7f538da7355b5d8c7c0.jpg);
+}
+.donation_intro h2, .donation_intro h1, .donation_intro p, #join2_intro p, #join2_intro h1{
+    text-align: center;
+    color: var(--deepcream);
+}
+.donation_intro a, #join2_intro a{
+    position: absolute;
+    top: 10px;
+    text-decoration: none;
+    color: var(--deepcream)
+}
+.donation_intro h1, #join2_intro h1{
+    font-size: 4rem;
+}
+.donation_intro h2{
+    font-size: 2.5rem;
+}
+#donate_main{
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 100px;
+    color: var(--deepgreen);
+}
+#donate_main h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 30px;
+}
+form{
+    padding: 10px 100px;
+    font-size: 1.5rem;
+}
+form input{
+    margin-bottom: 30px;
+    height: 40px;
+    margin-top: 10px;
+}
+form button{
+    height: 50px;
+    font-size: 2rem;
+    background-color: var(--deepgreen);
+    color: var(--deepcream);
+}
+#join2_main form{
+    display: flex;
+    flex-direction: column;
+}
+#join2_main select{
+    margin-bottom: 30px;
+    height: 40px;
+}
+#join2_main textarea{
+    margin-bottom: 30px;
+}
