@@ -11,6 +11,7 @@ html, body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    overflow-x: hidden; 
 }
 *, ::after, ::before{
     box-sizing: border-box;
@@ -298,4 +299,72 @@ form button{
 }
 #join2_main textarea{
     margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+   #join h2 {
+    font-size: 1.5rem;
+  }
+  #join p {
+    font-size: 1rem;
+  }
+  #join a{
+    font-size: 1rem;
+    height: 30px;
+    width: 100px;
+    padding-top: 5px;
+  }
+  #join {
+    width: 80%;
+    height: 300px;
+  }
+  .donate_form {
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    padding: 10px; 
+  }
+  #donate_main {
+    margin: 0;
+    width: 100vw;
+  }
+  .donate_form label, .donate_form input {
+    width: 350px;
+  }
+  .donate_form button{
+    width: 200px;
+    align-self: center;
+    border-radius: 10px;
+  }
+  .donation_intro, #join2_intro{
+    background-position: center;
+    width: 100vw;
+  }
+  #join2_main form{
+     width: 480px;
+     padding-left: 5px;
+  }
+  #join2_main button{
+    width: 200px;
+    font-size: 1rem;
+    align-self: center;
+    border-radius: 10px;
+  }
+  #learn_head {
+    display: none;
+  }
+  #learn_main {
+    margin-top: 0;
+  }
+  #heading {
+    background-position: center;
+    padding-top: 40px;
+    height: 100vh;
+  }
+  #heading h1 {
+    font-size: 2.7rem;
+    line-height: 80px;padding-top: 10px;
+  }
+  .learn_section section{
+    height: 400px;
+  }
 }
