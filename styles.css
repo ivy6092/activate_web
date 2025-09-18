@@ -26,6 +26,7 @@ header{
     top: 0;
     z-index: 1;
     max-width: 1200px;
+    scroll-padding-top: 80px;
 }
 #head, #learn_links{
     display: flex;
